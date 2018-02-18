@@ -1,0 +1,62 @@
+.comparatif {
+	width: 95%;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	text-align: center;
+	position: relative;
+	display: flex;
+
+  margin-bottom: 250px;
+}
+
+.comparatif table {
+	text-align: center;
+	width: 92.5%;
+	margin-left: 6%;
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+  	box-shadow: 0 0 15px 7.5px grey;
+}
+
+.comparatif tr {
+	background-color: #FFFFFF;
+}
+
+.comparatif th:nth-child(even), td:nth-child(even) {
+	background-color: rgb(230, 230, 230);
+}
+
+.comparatif th, td {
+	/*border: solid white 1px;*/
+	width: 300px;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid black 1px;
+}
+
+.comparatif tr:first-child>th {
+	height: 60px;
+}
+
+.comparatif tr:first-child>td {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.comparatif tr:last-child>td, tr:last-child>th {
+	height: 60px;
+	border-bottom: inherit;
+}
+
+.comparatif td {
+	color: #000000;
+}
+
+div.details {
+	margin-left: 85px;
+}
+
+.comparatif td>button>img {
+	height: 10px;
+}

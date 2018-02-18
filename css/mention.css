@@ -1,0 +1,28 @@
+div#main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div#main>div {
+	border: solid black 2px;
+	text-align: center;
+	min-width: 700px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+div#main>div:hover { /* Pour changer la couleur du fond quand on passe la souris dessus */
+	background-color: #EEEEEE;
+  box-shadow: 10px 10px 5px darkgrey;
+}
+
+div#main>div>h3 {
+	text-align: left;
+}

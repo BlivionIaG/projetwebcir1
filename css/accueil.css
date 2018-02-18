@@ -1,0 +1,167 @@
+#main{
+  min-height:1230px;
+}
+/* css slider */
+.sliderdiv {
+  position: relative;
+  min-width:1000px;
+  max-height: 455px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.sliderdiv img {
+  width: 100%;
+}
+
+.sliderdiv ul {
+   margin:0;
+}
+
+.sliderdiv li {
+   display:inline; /* retire un bug sur le javascript au niveau du chagement d'images*/
+}
+
+.previous,.next{
+  cursor:pointer;
+}
+
+div.previous,div.next{
+  position: absolute;
+  width: 15%;
+  height: 500px;
+  bottom: 0px;
+  font-weight: bold;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0.5;
+}
+
+span.previous,span.next{
+  position: absolute;
+  top:230px;
+}
+div.previous:hover,div.next:hover{
+  opacity: 1;
+}
+
+div.previous {
+  background: linear-gradient(to right,rgba(0,0,0, 0.5) 0%,rgba(0,0,0, 0.0001) 100%);
+}
+
+div.next {
+  background: linear-gradient(to right,rgba(0,0,0, 0.0001) 0%,rgba(0,0,0, 0.5) 100%);
+  right: 0;
+}
+/* css 3 bloc */
+#bloc1,#bloc2,#bloc3{
+  margin-left:5%;
+  top: -70px;
+  display:inline-block;
+  position:relative;
+  border: 4px solid #000000;
+  border-radius:10px;
+  text-align:center;
+  background-color:white;
+  width:25%;
+  height:280px;
+  padding-bottom:20px;
+  margin-bottom:-50px;
+}
+
+#bloc1 p,#bloc2 p,#bloc3 p{
+height:150px;
+padding:0 20px;	
+}
+
+div.details{
+  margin-left:100px;
+}
+/* css actualite */
+#actualite{
+  margin-left:3%;
+  margin-right:3%;
+  margin-bottom:100px;  
+  height:300px;
+}
+
+#info{
+  float:left;
+  overflow:auto;
+  width:60%;
+  border: 4px solid #000000;
+  border-radius:7px;
+  padding:8px 20px;
+  background-color:white;
+  height:300px;
+}
+/* twitter */
+#twitter{
+  margin-left:72%;
+  margin-right:4%;
+  width:290px;
+  height:320px;
+  background-color:white;
+  border-radius:5px;
+  box-shadow:0 0 5px 4px grey;
+}
+#en-tete{
+  padding:10px 5px 10px 5px;
+  height:20px;
+  width:280px;
+}
+
+#maintwit{
+  border-top:solid;
+  border-bottom:solid;
+  border-color:rgb(233,233,233);
+  height:235px;
+  width:290px;
+  overflow:auto;
+}
+
+#pied{
+  padding:10px;
+  height:20px;
+  width:270px;
+}
+
+h4{
+  font-size:1.5em;  
+  display:inline; 
+}
+
+.blue{
+  color:rgb(85,172,238);
+}
+.blue:hover{
+  text-decoration:underline;
+}
+
+.right{
+float:right;
+}
+
+.bloctwit{
+  padding:5px 10px 0;
+  height:170px;
+  border-bottom:solid;
+  border-color:rgb(233,233,233);
+  background: url("../ressources/twit.png") no-repeat;
+  background-size:100% 100%;
+}
+/* Reseaux sociaux */
+#Reseaux-sociaux{
+  margin-left:30px;
+}
+
+.icon-reseaux{
+  margin-top:-10px;
+  margin-right:12px;
+  width:50px;
+}
+
+
+

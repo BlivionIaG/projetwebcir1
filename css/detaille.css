@@ -1,0 +1,67 @@
+body {
+	background-color: #888888;
+}
+
+.detaille {
+	width: 85%;
+	margin-left: 7.5%;
+	background-color: #646464;
+	padding-bottom: 1px;
+	margin-bottom: 12px;
+}
+
+.detaille img {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+#score {
+	padding: 0.25%;
+	position: absolute;
+	background-color: #00FF00;
+	color: rgb(128, 128, 128);
+	font-size: 2em;
+	margin-left: 78.45%;
+}
+
+#informations {
+	background: #FF0000;
+	padding-top: 30px;
+	min-height: 75px;
+}
+
+#informations h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+#informations div {
+	float: left;
+	margin-left: 60px;
+	width: 380px;
+	text-align: center;
+	font-size: 1em;
+}
+
+#informations>h3 {
+	float: right;
+	margin-right: 60px;
+}
+
+#description {
+	background-color: #FFFFFF;
+	margin: 2.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 50px;
+	padding-top: 2px;
+}
+
+#description span:last-child {
+	float: right;
+	margin-top: 26px;
+	margin-right: 26px;
+}

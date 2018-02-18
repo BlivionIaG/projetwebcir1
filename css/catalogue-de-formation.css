@@ -1,0 +1,71 @@
+.formulas {
+	width: 88%;
+	padding: 0px;
+	margin-bottom: 5%;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: 6%;
+	margin-top: 65px;
+	margin-bottom: 65px;
+
+	box-shadow: 10px 10px 5px grey;
+}
+
+div.formulasElm {
+	width: 45%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 2.45%;
+	padding-right: 2.45%;
+	background-color: #FFFFFF;
+}
+
+div.formulasElm:hover {
+	background-color: #EEEEEE;
+}
+
+div.formulasElm>a {
+	cursor: default;
+}
+
+div.formulasElm:first-child {
+	border-right: dashed #444444 1px;
+	border-bottom: dashed #444444 1px;
+}
+
+div.formulasElm:nth-child(2) {
+	border-left: dashed #444444 1px;
+	border-bottom: dashed #444444 1px;
+}
+
+div.formulasElm:nth-child(2n+3) {
+	border-right: dashed #444444 1px;
+	border-bottom: dashed #444444 1px;
+	border-top: dashed #444444 1px;
+}
+
+div.formulasElm:nth-child(2n+4) {
+	border-left: dashed #444444 1px;
+	border-top: dashed #444444 1px;
+	border-bottom: dashed #444444 1px;
+}
+
+div.formulasElm:last-child {
+	border-bottom: inherit;
+}
+
+div.formulas div.details {
+	margin-left: 38%;
+}
+
+div.formulasElm>img {
+	width: 195px;
+	height: 120px;
+	border: solid black 1px;
+}
+
+#beforeLastFormula {
+	border-bottom: inherit;
+}

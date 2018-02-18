@@ -1,0 +1,34 @@
+#main{
+	padding:20px 20px;
+	min-height:525px; 
+}
+
+table{
+	margin-top:30px;
+	margin-left:6%; 
+	min-width:90%;
+	height:450px;
+	text-align:center;
+	border-collapse:collapse;
+
+}
+table, th, td {
+    border: 2px solid black;
+}
+li.suggestion{
+	list-style-type:disc;
+}
+
+ul.suggestion{
+	padding:0 20px;
+}
+
+th:nth-child(even),td:nth-child(even){
+	background-color:lightblue;
+}
+th:nth-child(odd),td:nth-child(odd){
+	background-color:#EEEEEE;
+}
+table a:hover{
+	text-decoration:underline;
+}

@@ -1,0 +1,182 @@
+/*======global css=====*/
+p,h3{
+  color:black;
+}
+
+h2,th{
+  color:green;
+}
+
+button{
+  background-color:darkgray;
+  color:white;
+}
+
+h1{
+  color:white;
+  text-decoration:underline;
+  text-shadow:black 0 0 5px;
+}
+body{
+  margin:0;
+  background-color:#CBCBCB;
+  font-family:Arial;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*======Menu css=====*/
+#toolbar{
+background-color:#1F2021;
+min-height:40px;
+min-width:1000px;
+user-select: none;
+}
+
+li,span{
+  list-style-type: none;
+}
+
+ul{
+padding:0px;
+}
+ul.menu{
+  margin:0;
+    overflow: hidden;
+}
+
+li.menu {
+  margin-left:-1.5px;
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  float: left;
+  height:40px;
+}
+
+li a.menu,li span.menu{
+    display: block;
+    padding: 12px 16px;
+    color:white;
+}
+
+li a.menu:hover,li span.menu:hover,li a.logo:hover{
+    background-color:#111;
+}
+
+li span.menu{
+    cursor:default;
+}
+/*====dropdown====*/
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    transform:translateY(-3px);
+    -moz-transform:translateY(-2px);
+    margin-left:-1px;
+    background-color:#1F2021;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown-content a {
+  margin-top:-1px;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #111}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*====Images====*/
+.icon{
+  position:relative;
+  float:right;
+  width:15px;
+  height:auto;
+  margin-top:2px;
+  margin-left:5px;
+
+}
+
+.logo{
+  position:relative;
+  width:37px;
+  height:37px;
+  margin-right:3px;
+  margin-top:1px;
+  margin-left:1px;
+  float:left;
+}
+
+/*=====footer css=====*/
+#footer {
+  padding-top:1px;
+  min-width :1000px;
+  height: 49px;
+  background-color: #474747;
+  clear:both;
+}
+
+#footer li{
+  margin-right: 10px;
+  float:right;
+  color:white;
+  list-style-type: none;
+}
+
+#footer li:first-child{
+    margin-left:10px;
+    float:left;
+}
+
+#footer a:hover{
+  text-decoration: underline;
+}
+
+/*=====Bouton Détail=====*/
+
+div.details{
+  font-weight:bold;
+  border: 2px solid black;
+  background: linear-gradient( #ccc6c3 0%,#828c95 24%,#000000 41%,#7f7f7f 100%);
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px 5px 20px;
+  width:80px;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 0 -1px 3px #555555;
+}
+
+div.details:hover{
+  background: linear-gradient(
+  #DDD6D3 0%,
+  #828c95 24%,
+  #000000 41%,
+  #8F8F8F 100%);
+}
+
+img.details{
+  width:20px;
+  height:20px;
+  left:5px;
+  top:-3px;
+}
